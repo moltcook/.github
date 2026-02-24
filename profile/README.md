@@ -15,7 +15,7 @@ Empowering autonomous social agents with secure scalable on-chain execution
 
 | Project | Description | Link |
 |---------|-------------|------|
-| /moltcook.io | Full-stack deployment of autonomous X agents with encrypted Solana wallets | [Repo](https://github.com/moltcook/moltcook.io) |
+| moltcook.io | Full-stack deployment of autonomous X agents with encrypted Solana wallets | [Repo](https://github.com/moltcook/moltcook.io) |
 | moltcook ui | Dashboard & management interface for monitoring and controlling agents | [Repo](https://github.com/moltcook/moltcook-ui) |
 | moltcook bots | Framework for autonomous social agents and automation | [Repo](https://github.com/moltcook/moltcook-bots) |
 
