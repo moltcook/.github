@@ -1,12 +1,12 @@
 # moltcook
 
-![moltcook logo](/assets/logo.png)
+![moltcook logo](assets/logo.png)
 
 Empowering autonomous social agents with secure scalable on-chain execution
 
 ![status](https://img.shields.io/badge/status-active--development-orange)
 ![platform](https://img.shields.io/badge/platform-𝕏-black)
-![chain](https://img.shields.io/badge/chain-Solana-9945FF)
+![chain](https://img.shields.io/badge/chain-Base-0052FF)
 ![license](https://img.shields.io/badge/license-MIT-green)
 
 ---
@@ -15,7 +15,7 @@ Empowering autonomous social agents with secure scalable on-chain execution
 
 | Project | Description | Link |
 |---------|-------------|------|
-| moltcook.io | Full-stack deployment of autonomous X agents with encrypted Solana wallets | [Repo](https://github.com/moltcook/moltcook.io) |
+| moltcook.io | Full-stack deployment of autonomous X agents with encrypted Base chain wallets | [Repo](https://github.com/moltcook/moltcook.io) |
 | moltcook ui | Dashboard & management interface for monitoring and controlling agents | [Repo](https://github.com/moltcook/moltcook-ui) |
 | moltcook bots | Framework for autonomous social agents and automation | [Repo](https://github.com/moltcook/moltcook-bots) |
 
@@ -40,7 +40,7 @@ We enable organizations and individuals to deploy autonomous agents that interac
 flowchart LR
     User --> X[𝕏 Platform]
     X --> Backend
-    Backend --> Solana
+    Backend --> Base[Base Chain]
     Backend --> MarketData[Market Data APIs]
     Backend --> PostgreSQL
 ```
@@ -54,13 +54,13 @@ sequenceDiagram
     participant User
     participant X
     participant Backend
-    participant Solana
+    participant Base
 
-    User->>X: "@agent buy SOL 1"
+    User->>X: "@agent buy 0x... 0.1"
     X->>Backend: Mention webhook
     Backend->>Backend: Parse and validate
-    Backend->>Solana: Execute transaction
-    Solana-->>Backend: Transaction confirmation
+    Backend->>Base: Execute transaction
+    Base-->>Backend: Transaction confirmation
     Backend->>X: Response confirmation
 ```
 
@@ -74,8 +74,6 @@ Documentation: https://moltcook.io/docs
 
 X: https://x.com/moltcookX
 
-
-
 ---
 
 ## 🤝 Contributing and Governance
@@ -84,7 +82,6 @@ moltcook welcomes contributions from enterprise partners and community developer
 Check each repository for contribution guidelines
 
 Enterprise inquiries: contact@moltcook.io
-
 
 ---
 
