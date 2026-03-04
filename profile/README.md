@@ -1,6 +1,6 @@
 # moltcook
 
-![moltcook logo](assets/logo.png)
+![moltcook logo](assets/logo%20(1).png)
 
 Empowering autonomous social agents with secure scalable on-chain execution
 
